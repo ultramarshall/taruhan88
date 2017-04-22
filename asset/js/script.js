@@ -13,9 +13,26 @@ $(document).ready(function () {
     $(window).resize(function () {
         if ($(this).width() > 980) {
             $('nav').css('height', '30px');
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 100) {
+                    $('nav').css({
+                        'top': '0px',
+                        'position': 'fixed',
+                    });
+                } else {
+                    $('nav').css({
+                        'z-index': '0',
+                        'position': 'relative',
+                    });
+                    $('.logo').css('z-index', '1');
+                }
+            });
+
         } else {
             $('nav').css('height', '0px');
         }
     });
+
 
 });

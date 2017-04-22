@@ -33,6 +33,11 @@ header:hover {
     background-position: 100px
 }
 
+.logo{
+    background: url("asset/images/logo-list.png");
+    background-size: 100% 100%;;
+}
+
 nav ul li {
     /*color gradient*/
     background: #45484d;
@@ -63,4 +68,11 @@ nav ul li:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='faad00', GradientType=0);
 }
 
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    margin-top: 1em;
+}
 
