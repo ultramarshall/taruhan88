@@ -74,9 +74,9 @@
     .logo {
         height: 130px;
         width: 280px;
-        position: absolute;
         left: calc(50% - 140px);
-        display: block
+        position: absolute;
+        z-index: 1
     }
     #navigation {
         display: none
@@ -98,8 +98,8 @@
     nav {
         width: 980px;
         height: 30px;
-        background-color: aqua;
         transition: height .1s ease-out;
+    
     }
     nav ul {
         width: 100%;

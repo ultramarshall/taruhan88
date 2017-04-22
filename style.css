@@ -33,9 +33,10 @@ header:hover {
     background-position: 100px
 }
 
-.logo{
+.logo {
     background: url("asset/images/logo-list.png");
-    background-size: 100% 100%;;
+    background-size: 100% 100%;
+    ;
 }
 
 nav ul li {
@@ -75,4 +76,3 @@ footer {
     float: left;
     margin-top: 1em;
 }
-
