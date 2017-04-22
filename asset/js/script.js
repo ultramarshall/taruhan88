@@ -24,6 +24,7 @@ $(document).ready(function () {
                     $('nav').css({
                         'z-index': '0',
                         'position': 'relative',
+                        'top': '60px',
                     });
                     $('.logo').css('z-index', '1');
                 }
