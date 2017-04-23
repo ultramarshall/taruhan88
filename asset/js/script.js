@@ -11,15 +11,15 @@ $(document).ready(function () {
 
     });
     $(window).resize(function () {
-        if ($(this).width() > 980) {
+        if ($(this).width() > 1024) {
             $('nav').css('height', '30px');
             $('nav').css('top', '0px');
             $('nav').css('position', 'relative');
         } 
-        if( $(this).width() < 980) {
+        if( $(this).width() < 1024) {
             $('nav').css('height', '0px');
             $('nav').css('top', '60px');
-            $('nav').css('position', 'fixed');
+            $('nav').css('position', 'absolute');
         }
     });
     $(window).scroll(function () {
@@ -28,6 +28,7 @@ $(document).ready(function () {
             $('nav').css({
                 'top': '0px',
                 'position': 'fixed',
+                'width': '1024px',
                 'z-index': 2
             });
             
