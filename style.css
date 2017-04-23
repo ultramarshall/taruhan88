@@ -5,21 +5,31 @@
     box-sizing: border-box;
     font-size: .96em;
 }
+
 html {
     
 }
+
 html,
 body {
     height: 100%;
-    background-image: url("asset/images/bg.png");
     background-size: 100% 100%;
     background-attachment: fixed;
+    background-image: url("asset/images/bg.png");
 }
-
+.backimage{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    background-image: url("asset/images/bg2.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 .container {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 header {
@@ -75,9 +85,42 @@ nav ul li:hover {
 }
 
 footer {
-    height: 30px;
+    height: 300px;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.16);
     float: left;
     margin-top: 1em;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.18);
+    display: inline-block;
+}
+#sp24h {
+    height: 60px;
+    width: 240px;
+    background-image: url(asset/images/24h.png);
+    background-size: 100% 100%;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#cr {
+    background-image: url("asset/images/cr.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#support-right li {
+    color: white;
+    font-weight: bolder;
+    list-style: none;
+    background: rgba(245, 240, 243, 1);
+    background: -moz-linear-gradient(top, rgba(105, 105, 105, 0.30) 0%, rgba(0, 0, 0, 0.42) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(105, 105, 105, 1)), color-stop(100%, rgba(0, 0, 0, 0.42)));
+    background: -webkit-linear-gradient(to bottom, rgba(105, 105, 105, 0.30) 0%, rgba(0, 0, 0, 0.42) 100%);
+    background: -o-linear-gradient(to bottom, rgba(105, 105, 105, 0.30) 0%, rgba(0, 0, 0, 0.42) 100%);
+    background: -ms-linear-gradient(to bottom, rgba(105, 105, 105, 0.30) 0%, rgba(0, 0, 0, 0.42) 100%);
+    background: linear-gradient(to bottom, rgba(105, 105, 105, 0.30) 0%, rgba(0, 0, 0, 0.42) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f0f3', endColorstr='#615f60', GradientType=0);
 }

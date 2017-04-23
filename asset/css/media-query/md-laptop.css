@@ -12,7 +12,6 @@
         position: absolute;
         margin-top: 10px;
         margin-left: calc(50% - 100px)
-        
     }
     .logo img {
         height: 35px;
@@ -92,7 +91,6 @@
         position: absolute;
         z-index: 1
     }
-
     .logo img {
         height: 40px;
         width: 200px;
@@ -141,18 +139,32 @@
         padding-right: 20px
     }
     section {
-        width: calc(100% - 320px);
+        width: calc(100% - 420px - 1em);
         float: left;
-        height: 150%;
-        margin-top: 10px;
-        background-color: blue;
+        height: 330px;
+        margin-top: 2em;
+        background-color: rgba(0, 0, 0, 0.24);
+        margin-right: 1em
     }
     aside {
-        width: 320px;
+        width: 420px;
         float: left;
-        height: 50%;
-        margin-top: 10px;
-        background-color: #0000a3;
+        height: 330px;
+        margin-top: 2em;
+    }
+    #cr {
+        position: absolute;
+        height: 450px;
+        width: 250px;
+        margin-top: -30px;
+        right: -30px;
         display: inline-block;
+    }
+    #support-right {
+        margin-top: 5px;
+    }
+    #support-right li {
+        padding: 1em;
+        font-size: 1.1em;
     }
 }

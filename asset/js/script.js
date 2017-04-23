@@ -36,6 +36,9 @@ $(document).ready(function () {
                 'width': '1024px',
                 'z-index': 2
             });
+            $('.logo').css({
+                'z-index': 1,
+            });
             $('aside').css({
                 'position': 'fixed',
                 'top': '30px',
