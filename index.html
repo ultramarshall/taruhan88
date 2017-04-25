@@ -5,9 +5,10 @@
     <title>Taruhan88.com</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="asset/css/font-icon.css">
 </head>
 
-<body>
+<body ondragstart="return false" draggable="false" ondragenter="event.dataTransfer.dropEffect='none'; event.stopPropagation(); event.preventDefault();" ondragover="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();" ondrop="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();">
     <div class="backimage"></div>
     <div class="container">
 
@@ -18,6 +19,7 @@
             <input type="checkbox" id="navigation" name="a[]">
             <label for="navigation" id="nav-button"></label>
         </header>
+
         <nav>
             <ul>
                 <li>home</li>
@@ -32,22 +34,69 @@
         </nav>
 
 
-        <section></section>
+        <section>
+            
+        </section>
+        
         <aside>
             <div id="cr"></div>
             <div id="sp24h"></div>
             <ul id="support-right">
-                <li>+855 887833087</li>
-                <li>+855 887833087</li>
-                <li>+855 887833087</li>
-                <li>TARUHAN 88</li>
-                <li>TARUHAN 88</li>
-                <li>LIVE : TARUHAN 88</li>
+                <li>
+                    <i class="fa phone"></i>
+                    <p>+855 887833087</p>
+                </li>
+                <li>
+                    <i class="fa blackberry"></i>
+                    <p>296B8295</p>
+                </li>
+                <li>
+                    <i class="fa whatsapp"></i>
+                    <p>+855 887833087</p>
+                </li>
+                <li>
+                    <i class="fa line"></i>
+                    <p>TARUHAN 88</p>
+                </li>
+                <li>
+                    <i class="fa yahoo"></i>
+                    <p>TARUHAN 88</p>
+                </li>
+                <li>
+                    <i class="fa skype"></i>
+                    <p>LIVE : TARUHAN 88</p>
+                </li>
             </ul>
         </aside>
 
-        <footer></footer>
+        <footer>
+            <div id="games">
+                   <ul>
+                       <li><a href="index.html"><i class="game sportbook"></i></a></li>
+                       <li><a href="index.html"><i class="game casino"></i></a></li>
+                       <li><a href="index.html"><i class="game tangkas"></i></a></li>
+                       <li><a href="index.html"><i class="game togel"></i></a></li>
+                       <li><a href="index.html"><i class="game poker"></i></a></li>
+                   </ul>
+            </div>
+            <div class="info">
+                <div id="img">
+                    <span id="top">INFO</span>
+                    <span id="bottom">TERKINI</span>
+                    <div class="pal"></div>
+                </div>
+
+                <marquee>
+                    Terima kasih sudah mengunjungi Taruhan88.net. 
+                    Kepuasan dan juga kepercayaan pelanggan merupakan 
+                    prioritas utama kami.
+                </marquee>
+            </div>
+        </footer>
+
     </div>
+
+
     <!-- font library -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">

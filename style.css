@@ -4,11 +4,20 @@
     font-family: 'Monda', sans-serif;
     box-sizing: border-box;
     font-size: .96em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-html {
-    
-}
+html {}
 
 html,
 body {
@@ -17,7 +26,8 @@ body {
     background-attachment: fixed;
     background-image: url("asset/images/bg.png");
 }
-.backimage{
+
+.backimage {
     height: 100%;
     position: fixed;
     width: 100%;
@@ -25,11 +35,11 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+
 .container {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 header {
@@ -85,26 +95,20 @@ nav ul li:hover {
 }
 
 footer {
-    height: 300px;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.16);
     float: left;
-    margin-top: 1em;
 }
 
 aside {
     background-color: rgba(0, 0, 0, 0.18);
     display: inline-block;
 }
+
 #sp24h {
-    height: 60px;
-    width: 240px;
     background-image: url(asset/images/24h.png);
     background-size: 100% 100%;
-    top: 0;
-    margin-left: 20px;
-    margin-top: 10px;
 }
+
 #cr {
     background-image: url("asset/images/cr.png");
     background-repeat: no-repeat;
@@ -112,6 +116,7 @@ aside {
 }
 
 #support-right li {
+    position: relative;
     color: white;
     font-weight: bolder;
     list-style: none;
@@ -124,3 +129,7 @@ aside {
     background: linear-gradient(to bottom, rgba(105, 105, 105, 0.30) 0%, rgba(0, 0, 0, 0.42) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f0f3', endColorstr='#615f60', GradientType=0);
 }
+
+
+
+
